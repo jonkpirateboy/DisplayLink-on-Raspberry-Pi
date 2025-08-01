@@ -164,7 +164,7 @@ Make it executable:
 chmod +x ~/.config/autostart/displaylink.desktop
 ```
 
-## 12. Reapply Auto Login (Required)
+## 12. Reapply Auto Login
 
 Re-run `raspi-config` and ensure auto login is enabled **after** all previous steps:
 
