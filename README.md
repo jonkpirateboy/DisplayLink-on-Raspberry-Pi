@@ -106,7 +106,7 @@ Edit the LightDM config:
 sudo nano /etc/lightdm/lightdm.conf
 ```
 
-Ensure the `[Seat:*]` section contains:
+Ensure the `[Seat:*]` section contains and change `[yourusername]` to your username:
 
 ```ini
 [Seat:*]
@@ -114,7 +114,7 @@ greeter-session=pi-greeter
 greeter-hide-users=false
 user-session=LXDE-pi-x
 display-setup-script=/usr/share/dispsetup.sh
-autologin-user=jonk
+autologin-user=[yourusername]
 autologin-session=LXDE-pi-x
 ```
 
@@ -146,12 +146,12 @@ mkdir -p ~/.config/autostart
 nano ~/.config/autostart/displaylink.desktop
 ```
 
-Paste:
+Paste and change `[yourusername]` to your username:
 
 ```ini
 [Desktop Entry]
 Type=Application
-Exec=/home/jonk/.displaylink-setup.sh
+Exec=/home/[yourusername]/.displaylink-setup.sh
 Hidden=false
 X-GNOME-Autostart-enabled=true
 Name=DisplayLink Setup
