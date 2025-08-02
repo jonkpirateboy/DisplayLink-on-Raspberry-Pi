@@ -80,7 +80,9 @@ To force it to load at boot:
 echo evdi | sudo tee -a /etc/modules
 ```
 
-## 7. Install DisplayLink Driver (Official Method)
+## 7. Install DisplayLink Driver
+
+Get the driver from [synaptics](https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu) with apt.
 
 ```bash
 wget https://www.synaptics.com/sites/default/files/Ubuntu/pool/stable/main/all/synaptics-repository-keyring.deb
