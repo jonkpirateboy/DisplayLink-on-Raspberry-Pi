@@ -132,7 +132,7 @@ Paste:
 
 ```bash
 #!/bin/bash
-xrandr --output DVI-I-1-1 --mode 1024x600 --primary
+xrandr --output DVI-I-1-1 --mode 1024x600 --primary --panning 1024x576
 ```
 
 Make it executable:
