@@ -1,10 +1,12 @@
 # DisplayLink on Raspberry Pi
 
-This guide assumes you're using a DisplayLink USB adapter and want to get it working with a Raspberry Pi 5 (or 4) running Raspberry Pi OS (Bookworm, 64-bit). It includes building and installing the EVDI module, setting up DisplayLinkManager, and ensuring everything works on boot.
+This guide assumes you're using a DisplayLink USB adapter and want to get it working with a Raspberry Pi * running Raspberry Pi OS (Bookworm, 64-bit). It includes building and installing the EVDI module, setting up DisplayLinkManager, and ensuring everything works on boot.
+
+* Tested on Raspberry Pi 5 and Raspberry Pi 4
 
 ## 1. System Requirements
 
-- Raspberry Pi 5
+- Raspberry Pi
 - Raspberry Pi OS Bookworm 64-bit (with desktop)
 - DisplayLink-based USB display
 
